@@ -152,7 +152,7 @@ class App extends React.Component {
   }
 
   onAutomaticDocumentDetection = imageUri =>{
-    this.setState({imagePath:imageUri.croppedImage,isDocumentPickerClicked:false,isFilterShown:true})
+    this.setState({buttonText:'Processing...',imagePath:imageUri.croppedImage,isDocumentPickerClicked:false,isFilterShown:true})
     this.openScannedImageCropper(imageUri.croppedImage)
   }
 
