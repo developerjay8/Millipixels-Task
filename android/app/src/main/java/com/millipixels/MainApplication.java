@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.ozdevcode.theartofdev.edmodo.cropper.ImageCropperPackage;
 import com.documentscanner.DocumentScannerPackage;
 import iyegoroff.RNColorMatrixImageFilters.ColorMatrixImageFiltersPackage;
 import com.ozdevcode.theartofdev.edmodo.cropper.ImageCropperPackage;

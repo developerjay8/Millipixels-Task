@@ -1,4 +1,6 @@
 rootProject.name = 'MilliPixels'
+include ':react-native-android-image-cropper'
+project(':react-native-android-image-cropper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-image-cropper/android')
 //include ':@woonivers_react-native-document-scanner'
 //project(':@woonivers_react-native-document-scanner').projectDir = new File(rootProject.projectDir, '../node_modules/@woonivers/react-native-document-scanner/android')
 include ':react-native-dynamic-cropper'

@@ -70,6 +70,7 @@ async function GetAllPermissions() {
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.isAndroid = Platform.OS ==='android'?true:false
     this.state = {
       enableKeyBoardAvoidingView: false,
       selectedFilterType: 0,
@@ -88,6 +89,7 @@ class App extends React.Component {
       maxWidth: 400,
       maxHeight: 400,
       cropping:true,
+      allowsEditing: true,
       storageOptions: {
         skipBackup: true,
       },
@@ -108,8 +110,9 @@ class App extends React.Component {
   }
 
   openImageCropPicker() {
-      let ImageCropper = require('react-native-android-image-cropper');
-      var options = {
+    if(this.isAndroid){
+      let ImageCropper = this.isAndroid? require('react-native-android-image-cropper'):null;
+      let options = {
         guideLines: 'on-touch',
         cropShape: 'rectangle',
         title: 'Millipixles Cropper',
@@ -124,9 +127,12 @@ class App extends React.Component {
             this.setState({isFilterShown: true});
           }
         }
-      });
-  }
+      });      return
+    }
 
+    let options = {}
+    this.chooseUserProfileLogo(options)
+  }
   openScannedImageCropper(imageUri){
     let ImageCropper = require('react-native-android-image-cropper');
     var options = {
@@ -141,7 +147,8 @@ class App extends React.Component {
         this.setState({imagePath: response.uri, isFilterShown: true});
       }
     })
-  }
+  
+}
 
   openDocumentScanner = () => {
     this.setState({selectedFilterType:0,isDocumentPickerClicked: true});
@@ -158,7 +165,7 @@ class App extends React.Component {
 
   onPickOrClickImage = () => {
     this.setState({selectedFilterType:0})
-    Platform.OS === 'ios'?this.chooseUserProfileLogo(): this.openImageCropPicker()
+    this.openImageCropPicker()
   }
 
   render() {
