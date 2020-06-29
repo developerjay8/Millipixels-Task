@@ -151,7 +151,7 @@ class App extends React.Component {
 }
 
   openDocumentScanner = () => {
-    this.setState({selectedFilterType:0,isDocumentPickerClicked: true});
+    this.setState({buttonText:'Take Picture',selectedFilterType:0,isDocumentPickerClicked: true});
   };
 
   onTakePictureClick = () =>{
