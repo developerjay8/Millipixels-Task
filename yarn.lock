@@ -1128,6 +1128,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
+"@react-native-community/image-editor@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/image-editor/-/image-editor-2.3.0.tgz#8ac6c3691fd2c762d2abeb84c01a3b201bac3b1e"
+  integrity sha512-+UJY8WkTkfSkjoU5blQnEI7tTg11jJLoM+YojjiQpEopUaRlYQU4SZ9Zd6F6wWfvc9bjvIeMY6FlKuESK/q4fQ==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.0.tgz#c8d68821a854c555bba172f3b06959a0039b236d"
@@ -1300,6 +1305,11 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
+
+"@woonivers/react-native-document-scanner@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@woonivers/react-native-document-scanner/-/react-native-document-scanner-2.1.1.tgz#1e821ad2c8a480c1b1d4f39c30eaad4c4ae0349a"
+  integrity sha512-DJVRhEOtY8I8RzcG64mmFZqaoRqnpAOjeiI2gU5XnjyIuSkURp5YnfiH21i/fOx/xLPhIuf1MRvEWK1l74F9CQ==
 
 abab@^2.0.3:
   version "2.0.3"
@@ -1924,6 +1934,11 @@ ci-info@^2.0.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
 
+clamp@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/clamp/-/clamp-1.0.1.tgz#66a0e64011816e37196828fdc8c8c147312c8634"
+  integrity sha1-ZqDmQBGBbjcZaCj9yMjBRzEshjQ=
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -2077,6 +2092,13 @@ compression@^1.7.1:
     on-headers "~1.0.2"
     safe-buffer "5.1.2"
     vary "~1.1.2"
+
+concat-color-matrices@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/concat-color-matrices/-/concat-color-matrices-1.0.0.tgz#7d77baa4148264806d4318d9a2378e7dec4bc413"
+  integrity sha512-K0IMtl4m9LcHg4vVFb40Txmie/GwCJBkquGSn6wtA9yIcszzFZgGc6co4sSnjFdqeJAv+q2LrCHMUSb2GHAChA==
+  dependencies:
+    invariant "^2.2.4"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -4743,9 +4765,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -5387,6 +5409,38 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-advance-image-cropper@^1.0.6:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-advance-image-cropper/-/react-native-advance-image-cropper-1.1.0.tgz#dc871516ac8313b7cea6f7c00f31997fe5bf8207"
+  integrity sha512-POllgrsy//pNUmmnT00EERqS2eyfcSSCkJ/oBUVhSa+f0jjD4VC+E8wUZ2kd39ChT66weBcDaCnl/2AIJQrrNg==
+  dependencies:
+    "@react-native-community/image-editor" "^2.3.0"
+    prop-types "^15.6.2"
+
+react-native-android-image-cropper@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-android-image-cropper/-/react-native-android-image-cropper-0.2.4.tgz#b9bea17e29a0d7cdd13f0303518e90f57ba33b60"
+  integrity sha512-+5eglj69zSlDT4nUp0JqVxR2lLR3OphbWMDY/9A8Vf5abjTE086HGFV1/E8Vda08mZhJ/uXjzBLirmDsQmjfGw==
+
+react-native-color-matrix-image-filters@^5.2.5:
+  version "5.2.14"
+  resolved "https://registry.yarnpkg.com/react-native-color-matrix-image-filters/-/react-native-color-matrix-image-filters-5.2.14.tgz#480e71279cea7936db6b7c8c44fb26863aba2774"
+  integrity sha512-j3lu5SXEONvQb2JaB7E8AaMJGvslNd8x4YncYMzyVpCJFyl/BN8/90YT5hDtOx4ee5Eogs9pIr6A9fqngryR8g==
+  dependencies:
+    concat-color-matrices "^1.0.0"
+    rn-color-matrices "^4.1.0"
+    ts-tiny-invariant "^1.0.5"
+
+react-native-image-picker@^2.3.1:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-2.4.0.tgz#33231ac6d7794193d595b4e13ca6167fc4d523ef"
+  integrity sha512-vve5vcrFlV0lzU4bzY40CsOAEPMr036KlyIH181DN14y+T7i3hsl+PZ6vip4/fJdjLnedv5alLN2ddb46kHhkA==
+
+react-native-permissions@^2.1.5:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-2.2.2.tgz#3d2a63f6b7d6be52fc86e30f77412a9566283028"
+  integrity sha512-ihf4shQDSX5Oo9ChQXb9kr13mmyyNem5MaEvOpr3dCjhBOBWyEMztXm9/uPK1Qg5PsNpaYLa1KpcPZDCw87LXg==
+
 react-native@0.62.2:
   version "0.62.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
@@ -5689,6 +5743,13 @@ rimraf@~2.2.6:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
+
+rn-color-matrices@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/rn-color-matrices/-/rn-color-matrices-4.1.0.tgz#9ac5ce3d7daaf33d336b877508649469cb39f8a5"
+  integrity sha512-a8++z3Zi4GhA0oWwKS3etdrVuVQ2q/ByTMh6lMxo+vaSv3SRSSg5SzpZk65GS0NCAqMhFT8WSvgSgNhO/F+xag==
+  dependencies:
+    clamp "^1.0.1"
 
 rsvp@^4.8.4:
   version "4.8.5"
@@ -6408,6 +6469,11 @@ tr46@^2.0.2:
   integrity sha512-3n1qG+/5kg+jrbTzwAykB5yRYtQCTqOGKq5U5PE3b0a1/mzo6snDhjGS0zJVJunO0NrT3Dg1MLy5TjWP/UJppg==
   dependencies:
     punycode "^2.1.1"
+
+ts-tiny-invariant@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/ts-tiny-invariant/-/ts-tiny-invariant-1.0.5.tgz#cd3534aa90fcc3277abc2f8c14bd8bcb57c6b317"
+  integrity sha512-md/ohza8w2Uj3YE/oPjZBQeNlmNH0+Hbva0SOkW9RNAyHeYoY6bzK6XvriW3Fo/sV7rEu6Mv+O+OFUkJK0euWw==
 
 tslib@^1.8.1:
   version "1.13.0"
